@@ -93,6 +93,7 @@
 .lh-p40{line-height:40px;}
 .lh-p42{line-height:42px;}
 .lh-p45{line-height:45px;}
+.lh-p50{line-height:45px;}
 .lh-p55{line-height:55px;}
 .lh-p50{line-height:50px;}
 .lh-p70{line-height:70px;}
@@ -339,6 +340,7 @@
 .p-l-p18{padding-left:18px;}
 .p-l-p20{padding-left:20px;}
 .p-l-p30{padding-left:30px;}
+.p-l-p50{padding-left:50px;}
 
 .p-l-2{padding-left:2%;}
 .p-l-3{padding-left:3%;}
@@ -444,6 +446,10 @@
 .bor-f3f{border-color:#f3f3f3}
 .bor-d0{border-color: #d0d0d0;}
 .bor-e60044{border-color:#e60044;}
+.bor-606264   { border-color: #606264 }
+.bor-151617   { border-color: #151617 }
+.bor-28abe3   { border-color: #28abe3 }
+.bor-007 {border-color: #007bff}
 
 /* border-radius */
 .br-p0{border-radius:0; -moz-border-radius:0; -webkit-border-radius:0;}
@@ -508,11 +514,19 @@
 .bg-df135d{background-color:#df135d}
 .bg-169bd5{background-color:#169bd5}
 .bg-32a{ background-color: #32a7da}
+.bg-007{ background-color: #007bff}
 
 .bg-rgba{background: rgba(0, 0, 0, 0.8);}
 
 .bg-169bd5{background-color:#169bd5}
 .bg-32a{ background-color: #32a7da}
+
+
+.bg-373d41 {background-color: #373d41}
+.bg-2a2f32 {background-color: #2a2f32 }
+.bg-333744 {background-color: #333744 }
+.bg-2c3035 {background-color: #2c3035 }
+.bg-f9f9f9 {background-color: #f9f9f9 }
 
 .bg-light{color:#58666e; background-color:#edf1f2;}
 .bg-light .lt,.bg-light.lt{background-color:#f3f5f6;}
@@ -571,56 +585,62 @@
 .bg-danger .bg,.bg-danger.bg{background-color:#f05050;}
 
 /* text-color */
-.t-c-0a0{color:#0a0000;}
-.t-c-2{color:#222}
-.t-c-c{color:#ccc}
-.t-c-fff{color:#fff}
-.t-c-e{color:#eee}
-.t-c-666{color:#666}
-.t-c-888{color:#888}
-.t-c-999{color:#999}
-.t-c-white{color:white;}
-.t-c-f2a{color:#f2a205;}
-.t-c-f60{color:#f60;}
-.t-c-d{color:dodgerblue;}
-.t-c-ff5{color:#ff5a43;}
-.t-c-70a{color:#70ad34;}
-.t-c-e60{color:#e60;}
-.t-c-79{color:#797979;}
-.t-c-b20{color:#b20;}
-.t-c-e20{color:#e20601;}
-.t-c-d60{color:#d60050;}
-.t-c-009{color:#009fe8;}
-.t-c-1ea{color:#1eaa39;}
-.t-c-f29{color:#f29600;}
-.t-c-a4a{color:#a4a4a4;}
-.t-c-8dc{color:#8dc21f}
-.t-c-f90{color:#f90f4b}
-.t-c-231{color:#231815}
-.t-c-e95{color:#e95513;}
-.t-c-e51{color:#e51373}
-.t-c-009{color:#00913a;}
-.t-c-019{color:#019fe8;}
-.t-c-f4b{color:#f4b52b;}
-.t-c-ce5{color:#ce53df;}
-.t-c-5db{color:#5DB827;}
-.t-c-0c4{color:#0c4a7b;}
-.t-c-ffb{color:#ffb3b3;}
-.t-c-808{color:#808080;}
-.t-c-556{color:#c77556;}
-.t-c-653{color:#dd5653;}
-.t-c-044{color:#e60044;}
-.t-c-f3f{color:#f3f3f3;}
-.t-c-a4a{color:#a4a4a4;}
-.t-c-7b7{color:#7b7b7b;}
-.t-c-646{color:#646464;}
-.t-c-525{color:#525252;}
-.t-c-424{color:#424242;}
-.t-c-e41{color:#e41b16;}
-.t-c-717{color:#717071;}
-.t-c-e41b16{color:#e41b16}
-.t-c-e60044{color: #e60044}
-.t-c-7b{color: #7b7b7b;}
+/**************/
+/* 灰色 */
+/**************/
+.t-c-white    {color: white;}
+.t-c-fff      {color: #fff}
+.t-c-f3f      {color: #f3f3f3;}
+.t-c-e        {color: #eee}
+.t-c-c        {color: #ccc}
+.t-c-a4a      {color: #a4a4a4;}
+.t-c-999      {color: #999}
+.t-c-888      {color: #888}
+.t-c-808      {color: #808080;}
+.t-c-7b7      {color: #7b7b7b;}   /* 与下面一样 */
+.t-c-7b       {color: #7b7b7b;}
+.t-c-79       {color: #797979;}
+.t-c-717      {color: #717071;}
+.t-c-666      {color: #666}
+.t-c-646      {color: #646464;}
+.t-c-525      {color: #525252;}
+.t-c-424      {color: #424242;}
+.t-c-2        {color: #222}
+.t-c-0a0      {color: #0a0000;}
+
+/* 未整理 */
+.t-c-f2a      {color: #f2a205;}
+.t-c-f60      {color: #f60;}
+.t-c-ff5      {color: #ff5a43;}
+.t-c-e60      {color: #e60;}
+.t-c-b20      {color: #b20;}
+.t-c-e20      {color: #e20601;}
+.t-c-d60      {color: #d60050;}
+.t-c-ffb      {color: #ffb3b3;}
+.t-c-556      {color: #c77556;}
+.t-c-653      {color: #dd5653;}
+.t-c-044      {color: #e60044;}
+.t-c-e41      {color: #e41b16;}
+.t-c-e41b16   {color: #e41b16}
+.t-c-e60044   {color: #e60044}
+.t-c-f90      {color: #f90f4b}
+.t-c-e95      {color: #e95513;}
+.t-c-e51      {color: #e51373}
+.t-c-231      {color: #231815}
+.t-c-ce5      {color: #ce53df;}
+.t-c-f29      {color: #f29600;}
+.t-c-f4b      {color: #f4b52b;}
+.t-c-209e91   {color: #209e91}
+.t-c-5db      {color: #5DB827;}
+.t-c-70a      {color: #70ad34;}
+.t-c-1ea      {color: #1eaa39;}
+.t-c-8dc      {color: #8dc21f}
+.t-c-009      {color: #00913a;}
+.t-c-d        {color: dodgerblue;}
+.t-c-019      {color: #019fe8;}
+.t-c-009      {color: #009fe8;}
+.t-c-0c4      {color: #0c4a7b;}
+.t-c-28abe3   {color: #28abe3}
 
 /* font-size */
 .f-s-5{font-size:0.5rem;}
@@ -704,3 +724,6 @@
 .clip{white-space:nowrap; text-overflow:clip; -o-text-overflow:clip; overflow:hidden;}
 
 label {max-width:inherit;}
+
+/* 其他 */
+.pointer{ cursor: pointer; }
